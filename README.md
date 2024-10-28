@@ -40,7 +40,7 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
 * Some knowledge of Python is assumed.
 * All coding will be done in Jupyter notebooks. I'll explain how they work
   briefly but it will help if you've used them before.
-* We will ll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
+* We will use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
@@ -52,7 +52,7 @@ Then run
 ```
 git clone https://github.com/simpeg-research/earthscope-mt-course.git
 ```
-to clone the repository, and `cd` into the `earthscope-mt-course-2022` directory
+to clone the repository, and `cd` into the `earthscope-mt-course-2024` directory
 ```
 cd earthscope-mt-course
 ```
@@ -67,36 +67,18 @@ and activate the environment
 ```
 conda activate em
 ```
-```
-cd ..
-```
 
 ### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy-v2`, `aurora`, `SimPEG`
 
 Note that installing `mtpy-v2` will install `mt_metadata`, `mth5`, `SimPEG` and `MTpy-v2`
 
 
-Then instal `mtpy`
-```
-git clone https://github.com/MTgeophysics/mtpy-v2.git
-```
-```
-cd mtpy-v2
-```
-```
-git checkout -f updates
-```
-```
-pip install -e .
-```
+Then install `mtpy`
 
 ```
-cd ..
+conda -c conda-forge install mtpy-v2
 ```
 
-```
-cd earthscope-mt-course
-```
 
 ### Step 4: Launching the notebooks
 
