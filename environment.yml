@@ -12,7 +12,9 @@ dependencies:
   - ninja
   - matplotlib
   - mtpy-v2
+  - pydiso
   - dill
   - jupyterlab
   - ipywidgets
+  
   
