@@ -11,14 +11,16 @@
 |         | Info |
 |--------:|:-----|
 | When    | October 18-20th 2022|
+|        | October 28-Nov 1 2024|
 | conda environment  | `em` |
-| Slides  | [MT inversion](https://www.dropbox.com/sh/u87ft0xtj0fnc0e/AAC_44EIhLWAXto1KAkogoKWa?dl=0) |
 
 **Team**
 - [Seogi Kang](https://github.com/sgkang) (Instructor)
 - [Jared Peacock](https://github.com/kujaku11) (Instructor)
 - [Karl Kappler](https://github.com/kkappler) (Instructor)
 - [Lindsey Heagy](http://github.com/lheagy) 
+- [Mike Mitchell]()(Instructor)
+- [Paul Bedrosian]()
 - and the [SimPEG contributors](https://github.com/simpeg/simpeg/graphs/contributors)
 
 
@@ -68,19 +70,7 @@ and activate the environment
 conda activate em
 ```
 
-### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy-v2`, `aurora`, `SimPEG`
-
-Note that installing `mtpy-v2` will install `mt_metadata`, `mth5`, `SimPEG` and `MTpy-v2`
-
-
-Then install `mtpy`
-
-```
-conda -c conda-forge install mtpy-v2
-```
-
-
-### Step 4: Launching the notebooks
+### Step 3: Launching the notebooks
 
 Once you have activated the conda environment, you can launch the notebooks
 ```
