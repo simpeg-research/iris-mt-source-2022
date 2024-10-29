@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.10
   - git
   - pip
   - mkl-devel
@@ -11,7 +12,8 @@ dependencies:
   - cython 
   - ninja
   - matplotlib
-  - mtpy-v2
+  - simpeg>=0.22
+  - mtpy-v2>=2.0.12
   - pydiso
   - dill
   - jupyterlab
