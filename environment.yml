@@ -3,18 +3,16 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - matplotlib
-  - numpy=1.26
   - git
   - pip
-  - simpeg
-  - dill
-  - jupyterlab
-  - ipywidgets
   - mkl-devel
   - pkg-config
   - cmake
   - cython 
   - ninja
-  - pip:
-    - aurora
+  - matplotlib
+  - mtpy-v2
+  - dill
+  - jupyterlab
+  - ipywidgets
+  
