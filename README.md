@@ -11,14 +11,16 @@
 |         | Info |
 |--------:|:-----|
 | When    | October 18-20th 2022|
+|        | October 28-Nov 1 2024|
 | conda environment  | `em` |
-| Slides  | [MT inversion](https://www.dropbox.com/sh/u87ft0xtj0fnc0e/AAC_44EIhLWAXto1KAkogoKWa?dl=0) |
 
 **Team**
 - [Seogi Kang](https://github.com/sgkang) (Instructor)
 - [Jared Peacock](https://github.com/kujaku11) (Instructor)
 - [Karl Kappler](https://github.com/kkappler) (Instructor)
 - [Lindsey Heagy](http://github.com/lheagy) 
+- [Mike Mitchell]()(Instructor)
+- [Paul Bedrosian]()
 - and the [SimPEG contributors](https://github.com/simpeg/simpeg/graphs/contributors)
 
 
@@ -40,7 +42,7 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
 * Some knowledge of Python is assumed.
 * All coding will be done in Jupyter notebooks. I'll explain how they work
   briefly but it will help if you've used them before.
-* We will ll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
+* We will use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
@@ -52,7 +54,7 @@ Then run
 ```
 git clone https://github.com/simpeg-research/earthscope-mt-course.git
 ```
-to clone the repository, and `cd` into the `earthscope-mt-course-2022` directory
+to clone the repository, and `cd` into the `earthscope-mt-course-2024` directory
 ```
 cd earthscope-mt-course
 ```
@@ -67,38 +69,8 @@ and activate the environment
 ```
 conda activate em
 ```
-```
-cd ..
-```
 
-### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy-v2`, `aurora`, `SimPEG`
-
-Note that installing `mtpy-v2` will install `mt_metadata`, `mth5`, `SimPEG` and `MTpy-v2`
-
-
-Then instal `mtpy`
-```
-git clone https://github.com/MTgeophysics/mtpy-v2.git
-```
-```
-cd mtpy-v2
-```
-```
-git checkout -f updates
-```
-```
-pip install -e .
-```
-
-```
-cd ..
-```
-
-```
-cd earthscope-mt-course
-```
-
-### Step 4: Launching the notebooks
+### Step 3: Launching the notebooks
 
 Once you have activated the conda environment, you can launch the notebooks
 ```
