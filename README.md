@@ -71,11 +71,15 @@ If you do not already have Anaconda you can download it [here](https://www.anaco
 
 #### Create environment
 
+Open up an Anaconda terminal and `cd` into the folder you cloned the repository to. 
+
 From inside of the `earthscope-mt-course` repository, create the `em` conda environment
 ```
 conda env create -f environment.yml
 ```
+
 and activate the environment
+
 ```
 conda activate em
 ```
@@ -83,11 +87,12 @@ conda activate em
 ### Step 3: Launching the notebooks
 
 Once you have activated the conda environment, you can launch the notebooks
+
 ```
 jupyter lab
 ```
-Jupyter will then launch in your web-browser.
 
+Jupyter will then launch in your web-browser.
 
 ## Resources
 
