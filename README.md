@@ -46,6 +46,8 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
+## Setup
+
 ### Step 1: Download the MT inversion tutorial
 
 To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
@@ -60,6 +62,14 @@ cd earthscope-mt-course
 ```
 
 ### Step 2: Create `em` conda environment
+
+#### Anaconda
+
+If you do not already have Anaconda you can download it [here](https://www.anaconda.com/download/success). 
+
+*Be sure to download the correct package for your operating system.*
+
+#### Create environment
 
 From inside of the `earthscope-mt-course` repository, create the `em` conda environment
 ```
@@ -82,8 +92,9 @@ Jupyter will then launch in your web-browser.
 ## Resources
 
 **Resources on MT processing and inversions**
+- [mt-metadata](https://github.com/kujaku11/mt_metadata)
 - [MTH5](https://github.com/kujaku11/mth5)
-- [MTpy](https://github.com/MTgeophysics/mtpy-v2)
+- [MTpy-v2](https://github.com/MTgeophysics/mtpy-v2)
 - [aurora](https://github.com/simpeg/aurora)
 - [SimPEG](https://www.simepg.xyz)
 
