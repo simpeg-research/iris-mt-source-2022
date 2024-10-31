@@ -27,11 +27,11 @@
 
 ## Summary
 
-This repository contains the notebooks and tutorial resources for the Magnetotelluric (MT) Instrumentation and Data Processing Short Course - through Day2-Day4: 
+This repository contains the notebooks and tutorial resources for the Magnetotelluric (MT) Instrumentation and Data Processing Short Course - through Day 2-Day 4: 
 
-- Day2: MT Data, Data Formats, Software, & Data Processing
-- Day3: MT Dataset Explorations
-- Day4: MT inversions and Earth Models. 
+- Day 2: MT Data, Data Formats, Software, & Data Processing
+- Day 3: MT Dataset Explorations
+- Day 4: MT inversions and Earth Models. 
 
 This set of tutorials focus on providing hands-on examples of downloading, processing, visualzing, and inverting MT data. 
 
@@ -53,12 +53,11 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
 If you do not already have Anaconda you can download it [here](https://www.anaconda.com/download/success). 
 
 *Be sure to download the correct package for your operating system.*
-
-Open up an Anaconda terminal. 
+ 
 
 ### Step 1: Download the MT inversion tutorial
 
-To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
+To clone this repository, open up an Anaconda terminal and navigate to where you want this repository stored on your computer.
 
 Then run
 ```
