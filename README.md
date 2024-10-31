@@ -55,7 +55,7 @@ If you do not already have Anaconda you can download it [here](https://www.anaco
 *Be sure to download the correct package for your operating system.*
  
 
-### Step 1: Download the MT inversion tutorial
+### Step 1: Download the MT tutorial notebooks
 
 To clone this repository, open up an Anaconda terminal and navigate to where you want this repository stored on your computer.
 
