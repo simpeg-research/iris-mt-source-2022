@@ -27,11 +27,11 @@
 
 ## Summary
 
-This repository contains the notebooks and tutorial resources for the Magnetotelluric (MT) Instrumentation and Data Processing Short Course - through Day2-Day4: 
+This repository contains the notebooks and tutorial resources for the Magnetotelluric (MT) Instrumentation and Data Processing Short Course - through Day 2-Day 4: 
 
-- Day2: MT Data, Data Formats, Software, & Data Processing
-- Day3: MT Dataset Explorations
-- Day4: MT inversions and Earth Models. 
+- Day 2: MT Data, Data Formats, Software, & Data Processing
+- Day 3: MT Dataset Explorations
+- Day 4: MT inversions and Earth Models. 
 
 This set of tutorials focus on providing hands-on examples of downloading, processing, visualzing, and inverting MT data. 
 
@@ -46,9 +46,18 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
-### Step 1: Download the MT inversion tutorial
+## Setup
 
-To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
+### Anaconda
+
+If you do not already have Anaconda you can download it [here](https://www.anaconda.com/download/success). 
+
+*Be sure to download the correct package for your operating system.*
+ 
+
+### Step 1: Download the MT tutorial notebooks
+
+To clone this repository, open up an Anaconda terminal and navigate to where you want this repository stored on your computer.
 
 Then run
 ```
@@ -61,11 +70,17 @@ cd earthscope-mt-course
 
 ### Step 2: Create `em` conda environment
 
+#### Create environment
+
+
+
 From inside of the `earthscope-mt-course` repository, create the `em` conda environment
 ```
 conda env create -f environment.yml
 ```
+
 and activate the environment
+
 ```
 conda activate em
 ```
@@ -73,17 +88,19 @@ conda activate em
 ### Step 3: Launching the notebooks
 
 Once you have activated the conda environment, you can launch the notebooks
+
 ```
 jupyter lab
 ```
-Jupyter will then launch in your web-browser.
 
+Jupyter will then launch in your web-browser.
 
 ## Resources
 
 **Resources on MT processing and inversions**
+- [mt-metadata](https://github.com/kujaku11/mt_metadata)
 - [MTH5](https://github.com/kujaku11/mth5)
-- [MTpy](https://github.com/MTgeophysics/mtpy-v2)
+- [MTpy-v2](https://github.com/MTgeophysics/mtpy-v2)
 - [aurora](https://github.com/simpeg/aurora)
 - [SimPEG](https://www.simepg.xyz)
 
