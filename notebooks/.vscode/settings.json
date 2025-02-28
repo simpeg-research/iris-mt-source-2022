@@ -1,0 +1,9 @@
+{
+    "myst.preview.extensions": [
+        "dollarmath",
+        "colon_fence",
+        "deflist",
+        "amsmath",
+        "tasklist"
+    ]
+}
